@@ -12,10 +12,6 @@ from multiapp import MultiApp
 import plot_functions
 # import httpagentparser
 import requests
-from streamlit.report_thread import get_report_ctx
-
-# ctx = get_report_ctx()
-# print(ctx)
 
 # headers = {'User-Agent':'something'}
 # s = requests.get('http://google.com', headers=headers)
