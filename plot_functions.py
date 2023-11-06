@@ -254,7 +254,7 @@ def oscillator_plot(plot_df_pre, #df with the data
                          margin=dict(b=25, t=25)
                          )
     oscfig.update_yaxes(title_text=f"<b>{col_name.upper()}</b><br>{num_wks} Wk Oscillator",
-                        tickformat=",.1%",
+                        tickformat=",.0%",
                         titlefont_size=16,
                         zeroline=False,
                         color="#4c4c4c",
