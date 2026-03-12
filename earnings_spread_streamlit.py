@@ -22,7 +22,7 @@ st.set_page_config(layout='wide')
 
 # PULL FIRST SPREADSHEET
 # function to get file from google drive
-@st.cache
+@st.cache.data
 def pull_google_drive(url):
     file_id = url.split('/')[-2]
     dwn_url = "https://drive.google.com/uc?id=" + file_id
@@ -52,7 +52,7 @@ print('max date', df.date.max())
 
 # PULL CTO SPREADSHEET
 # function to get cto file from google drive
-@st.cache
+@st.cache.data
 def pull_google_drive_cot(url, sheetname='spx'):
     file_id = url.split('/')[-2]
     dwn_url = "https://drive.google.com/uc?id=" + file_id
