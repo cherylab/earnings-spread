@@ -128,7 +128,7 @@ pexpect
 pickleshare
 pip
 platformdirs
-plotly
+plotly==5.17.0
 prometheus-client
 prompt-toolkit
 protobuf==3.20.3
@@ -161,7 +161,7 @@ sniffio
 soupsieve
 stack-data
 statsmodels
-streamlit
+streamlit==1.32
 tenacity
 terminado
 tinycss2
